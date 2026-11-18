@@ -1,0 +1,33 @@
+# Data (download separately, see datasets/README.md)
+datasets/*
+!datasets/README.md
+*.csv
+*.zip
+*.parquet
+*.npy
+*.npz
+
+# Generated outputs
+models/
+results/
+plots/
+*.pt
+*.pth
+*.h5
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Documents
+*.pdf
